@@ -17,13 +17,13 @@
               <label class="block  tracking-wide text-white text-lg font-bold mb-2" htmlFor="grid-name">
                 name
               </label>
-              <input class="appearance-none block w-full bg-gray-200 text-black border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-name" name="name" type="text" placeholder="jane doe" />
+              <input class="appearance-none block w-full bg-gray-200 text-black border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-name" name="name" type="text" placeholder="jane doe" required/>
             </div>
             <div class="w-full md:w-1/2 px-3">
               <label class="block  tracking-wide text-white text-lg font-bold mb-2" htmlFor="grid-contact">
                 twitter/discord handle
               </label>
-              <input class="appearance-none block w-full bg-gray-200  text-black border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-contact" name="socials" type="text" placeholder="for contact" />
+              <input class="appearance-none block w-full bg-gray-200  text-black border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-contact" name="socials" type="text" placeholder="for contact" required />
             </div>
           </div>
           <div class="flex flex-wrap max-w-xs mx-3 mb-6">
@@ -31,21 +31,22 @@
               <label class="block upprcase tracking-wide text-white text-lg font-bold mb-2" htmlFor="grid-title">
                 email id
               </label>
-              <input class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-email" name="email" type="email" placeholder="for e-mail" />
+              <input class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-email" name="email" type="email" placeholder="for e-mail" required/>
             </div>
           </div>
           <div class="flex items-center justify-center">
+            <label class="mr-4 px-2 text-white font-bold">What do you want it to be??</label>
             <label for="game" class="mr-4 px-2 text-white font-bold">Game</label>
             <input type="radio" id="game" name="category" value="game" class="mr-8">
             <label for="movie" class="mr-4 px-2 text-white font-bold">Movie</label>
             <input type="radio" id="movie" name="category" value="movie">
-          </div>
+          </div><br>
           <div class="flex flex-wrap max-w-xs mx-3 mb-6">
             <div class="w-full px-3">
               <label class="block  tracking-wide text-white text-lg font-bold mb-2" htmlFor="grid-title">
                 idea title
               </label>
-              <input class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-title" name="title" type="text" placeholder="title of your idea" />
+              <input class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-title" name="title" type="text" placeholder="title of your idea" required/>
             </div>
           </div>
           <div class="flex flex-wrap mx-3 mb-2">
@@ -53,7 +54,7 @@
               <label class="block  tracking-wide text-white text-lg font-bold mb-2" htmlFor="grid-description">
                 idea description
               </label>
-            <textarea class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-description" cols="20" rows="5" name="description" placeholder="Let you imagination run wild"></textarea>
+            <textarea class="appearance-none block w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-description" cols="20" rows="5" name="description" placeholder="Let you imagination run wild" required></textarea>
             </div>
             
           </div>
